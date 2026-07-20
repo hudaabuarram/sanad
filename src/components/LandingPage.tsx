@@ -725,6 +725,18 @@ export default function LandingPage({ schools, onLogin, onAddRegistrationRequest
             <a href="#" onClick={(e) => { setActiveTab('support'); }} className="hover:text-slate-900 transition underline">تواصل معنا</a>
           </div>
         </div>
+        <div className="mt-6 border-t border-slate-100 pt-4 text-slate-400 text-xs flex justify-center items-center gap-1 flex-wrap">
+          <span>© 2026 All rights reserved by</span>
+          <a 
+            href="https://oxa-code-website.vercel.app/" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="text-blue-600 hover:text-blue-800 font-bold text-sm mx-1 transition-colors"
+          >
+            oxa code
+          </a>
+          <span>. Made with love and care.</span>
+        </div>
       </footer>
     </div>
   );
